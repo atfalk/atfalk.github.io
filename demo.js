@@ -69,7 +69,7 @@ var defaultLayers = platform.createDefaultLayers();
 
 var engineType = H.Map.EngineType['HARP'];
 
-var style = new H.map.render.harp.Style('https://heremaps.github.io/maps-api-for-javascript-examples/change-harp-style-at-load/data/night.json');
+var style = new H.map.render.harp.Style('https://github.com/atfalk/atfalk.github.io/blob/main/orange.json');
 
 var vectorLayer = platform.getOMVService().createLayer(style, { engineType });
 
